@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --color-white: #fff;
+  --color-light-red: #f03c42;
+  --color-blue: #222374;
+  --color-gray: #cccccc;
+  --color-black: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open sans", sans-serif;
+}
+
+/*NAV CSS*/
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: var(--color-light-red);
+}
+
+nav {
+  width: 100%;
+  max-width: 960px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 120px;
+  margin: 0 auto;
+}
+
+.sf-nav-box {
+  display: flex;
+  align-items: center;
+}
+
+.sf-nav-box h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.sf-nav-box img {
+  width: 30px;
+  height: 30px;
+}
+
+.sf-nav-box a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-white);
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+/*MAIN CSS*/
+
+.sf-upper-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-blue);
+  padding: 20px 120px 40px 120px;
+}
+
+.sf-upper-container h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+.sf-upper-box:first-of-type {
+  margin-top: 40px;
+}
+.sf-upper-box {
+  width: 100%;
+  max-width: 960px;
+  height: 127px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-gray);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.sf-upper-box h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sf-upper-box p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.sf-lower-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 120px 40px 120px;
+}
+
+.sf-lower-container h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-light-red);
+}
+
+.sf-lower-box:first-of-type {
+  margin-top: 40px;
+}
+
+.sf-lower-box {
+  width: 100%;
+  max-width: 960px;
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-blue);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.sf-lower-box h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.sf-lower-box p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #cccccc;
+}
+
+/*FOOTER CSS*/
+
+footer {
+  width: 100%;
+  height: 262px;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.sf-footer-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sf-footer-container a {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--color-white);
+  margin-left: 10px;
+}
+
+.sf-footer-inner-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sf-footer-adress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sf-footer-adress p:first-of-type {
+  font-style: normal;
+}
+
+.sf-footer-adress p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: var(--color-white);
+  font-style: italic;
+}
